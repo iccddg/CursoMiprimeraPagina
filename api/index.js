@@ -7,11 +7,7 @@ var html = fs.readFileSync("./api/index.html");
 var  i=0;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  for(i=1; i<=3; i=i++)
-{
   res.write(html);
-};
-  //res.write(html);
   res.end();
 });
 
