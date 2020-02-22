@@ -1,8 +1,32 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #E7D8BB;
+  color: #59595B;
 }
-
+.espacio-arriba{
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.no-float{
+  float: none;
+  display: inline-block;
+}
+.derecha{
+  text-align: right;
+}
+.imagen-pequeña{
+  max-width: 60%;
+  height: 300px;
+}
 a {
   color: #00B7FF;
 }
+/* Color Theme Swatches in Hex */
+.color-texto { color: #59595B; }
+.bordes { 
+  border-style: solid;
+  border-color:  #DFB75E; }
+.Current-1-3-hex { color: #E7D8BB; }
+.enfasis { background-color: #F5B097; }
+.Current-1-5-hex { color: #F28F7B; }
